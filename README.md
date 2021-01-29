@@ -35,9 +35,9 @@ Summary: This papers proposes a method for time series prediction using deep bel
 ​
 Notes:
 ​
-Mode Train -> greedy layer-wise manner
-Fine-tuning connection weights -> Back-propagation
-Mode sizes and learning rates -> PSO
+- Mode Train -> greedy layer-wise manner
+- Fine-tuning connection weights -> Back-propagation
+- Mode sizes and learning rates -> PSO
 ​
 
 **Conference**
@@ -50,9 +50,11 @@ Summary: The paper looks into the drought prediction problem using deep learning
 
 Notes
 
-Model train -> unsupervised learning
-Model Fine-tuning connection weights -> Back-propagation
+- Model train -> unsupervised learning
+- Model Fine-tuning connection weights -> Back-propagation
+
 **2016**
+
 Takaomi Hirata, Takashi Kuremoto, Masanao Obayashi, Shingo Mabu, Kunikazu Kobayashi (2016).Deep Belief Network Using Reinforcement Learning and Its Applications to Time Series Forecasting. International Conference on Neural Information Processing
 
 Summary: This paper introduces a reinforcement learning method named stochastic gradient ascent (SGA) to the DBN with RBMs instead conventional BackPropagation to predict a benchmark named CATS data.
@@ -63,28 +65,31 @@ Summary: The paper proposes a deep learning approach, which hybridizes a deep be
 
 Notes:
 
-Top layer -> SVM
-Fine-tuning connection weights -> Back-propagation
+- Top layer -> SVM
+- Fine-tuning connection weights -> Back-propagation
+
 Yuhan Jia; Jianping Wu; Yiman Du (2016). Traffic speed prediction using deep learning method. Intelligent Transportation Systems (ITSC), 2016 IEEE 19th International Conference on
 
 Summary: In this paper, a deep learning method, the Deep Belief Network (DBN) model, is proposed for short-term traffic speed information prediction.
 
 Notes:
 
-Model train -> greedy layer-wise manner
-Fine-tuning connection weights -> Back-propagation
-Model Sizes -> several ccombinations
+- Model train -> greedy layer-wise manner
+- Fine-tuning connection weights -> Back-propagation
+- Model Sizes -> several ccombinations
 
 **2015**
+
 Xueheng Qiu; Le Zhang; Ye Ren; P. N. Suganthan; Gehan Amaratunga (2015). Ensemble deep learning for regression and time series forecasting. Computational Intelligence in Ensemble Learning (CIEL), 2014 IEEE Symposium on
 
 Summary: This paper proposes an ensemble of deep learning belief networks (DBN) for regression and time series forecasting on electricity load demand datasets. Another contribution is to aggregate the outputs from various DBNs by a support vector regression (SVR) model.
 
 Notes:
 
-Top layer -> support vector regression (SVR)
-Long short-term memory
-Journal
+- Top layer -> support vector regression (SVR)
+- Long short-term memory
+
+**Journal**
 
 **2018**
 Jie Chen, Guo-Qiang Zeng, Wuneng Zhou, Wei Du, Kang-Di Lu (2018). Wind speed forecasting using nonlinear-learning ensemble of deep learning time series prediction and extremal optimization. Energy Conversion and Management, Volume 165, 1 June 2018, Pages 681-695
@@ -93,7 +98,7 @@ Summary: In this paper, they proposed a nonlinear-learning ensemble of deep lear
 
 Notes:
 
-Top layer -> support vector regression (SVR)
+- Top layer -> support vector regression (SVR)
 
 **2017**
 Zheng Zhao; Weihai Chen; Xingming Wu; Peter C. Y. Chen; Jingmeng Liu (2017). LSTM network: a deep learning approach for short-term traffic forecast. IET Intelligent Transport Systems, 11(2), 3, pages 68 - 75
@@ -103,6 +108,7 @@ Summary: This paper pses a traffic forecast model based on long short-term memor
 **Conference**
 
 **2018**
+
 Cristina Morariu; Theodor Borangiu (2018). Time series forecasting for dynamic scheduling of manufacturing processes. IEEE International Conference on Automation, Quality and Testing, Robotics (AQTR)
 
 Summary: This work proposes a time series forecasting model using a specific type of recursive neural networks, LSTM, for operation scheduling and sequencing in a virtual shop floor environment.
@@ -120,6 +126,7 @@ Che-Sheng Hsu; Jehn-Ruey Jiang (2018). Remaining useful life estimation using lo
 Summary: The paper proposes a deep learning method (long short-term memory (LSTM)) to estimate the remaining useful life of aero-propulsion engines. The proposed method is compared with the following methods: multi-layer perceptron (MLP), support vector regression (SVR), relevance vector regression (RVR) and convolutional neural network (CNN).
 
 **2017**
+
 Yangdong Liu; Yizhe Wang; Xiaoguang Yang; Linan Zhang (2017). Short-term travel time prediction by deep learning: A comparison of different LSTM-DNN models. Intelligent Transportation Systems (ITSC), 2017 IEEE 20th International Conference on
 
 Summary: The paper evalues a series of long short-term memory neural networks with deep neural layers (LSTM-DNN) using 16 settings of hyperparameters and investigates their performance on a 90-day travel time dataset. Then, the LSTM is tested along with linear models such as linear regression, Ridge and Lasso regression, ARIMA and DNN models under 10 sets of sliding windows and predicting horizons via the same dataset.
@@ -129,6 +136,7 @@ Avraam Tsantekidis; Nikolaos Passalis; Anastasios Tefas; Juho Kanniainen; Moncef
 Summary: The paper proposes a LSTM deep learning methodology for predicting future price movements from large-scale high-frequency time-series data on Limit Order Books.
 
 **2016**
+
 Yujin Tang; Jianfeng Xu; Kazunori Matsumoto; Chihiro Ono (2016). Sequence-to-Sequence Model with Attention for Time Series Classification. Data Mining Workshops (ICDMW), 2016 IEEE 16th International Conference on.
 
 Summary: The paper proposes a model incorporating a sequence-to-sequence model that consists two LSTMs, one encoder and one decoder. The encoder LSTM accepts input time series, extracts information and based on which the decoder LSTM constructs fixed length sequences that can be regarded as discriminatory features. The paper also introduces the attention mechanism.
@@ -147,8 +155,8 @@ Summary: This paper presents an energy load forecasting methodology based on Dee
 
 Notes:
 
-Model train -> Backpropagation
-Hongxin Shao; Boon-Hee Soong (2016). Traffic flow prediction with Long Short-Term Memory Networks (LSTMs). Region 10 Conference (TENCON), 2016 IEEE.
+- Model train -> Backpropagation
+- Hongxin Shao; Boon-Hee Soong (2016). Traffic flow prediction with Long Short-Term Memory Networks (LSTMs). Region 10 Conference (TENCON), 2016 IEEE.
 
 Summary: This paper explores the application of Long Short-Term Memory Networks (LSTMs) in short-term traffic flow prediction.
 
@@ -162,12 +170,13 @@ Summary: This paper uses a stacked long short-term memory model to learn and pre
 
 Notes:
 
-Model sizes and learning rates -> several ccombinations
-Auto-Encoders
+- Model sizes and learning rates -> several ccombinations
+- Auto-Encoders
 
 **Journal**
 
 **2017**
+
 Hao-Fan Yang, Tharam S. Dillon (2017). Optimized Structure of the Traffic Flow Forecasting Model With a Deep Learning Approach. IEEE Transactions on Neural Networks and Learning Systems ( Volume: 28, Issue: 10, Oct. 2017)
 
 Summary: This paper proposes a stacked autoencoder Levenberg–Marquardt model to improve forecasting accuracy. It is applied to real-world data collected from the M6 freeway in the U.K.
@@ -183,24 +192,28 @@ Li, X.ac, Peng, L.a, Hu, Y.ac, Shao, J.b, Chi, T.a (2016). Deep learning archite
 Summary: This paper proposed a novel spatiotemporal deep learning (STDL)-based air quality prediction method that inherently considers spatial and temporal correlations. A stacked autoencoder (SAE) model is used to extract inherent air quality features.
 
 Notes:
-Model Train -> greedy layer-wise manner
-Top layer -> logistic regression
-Fine-tuning connection weights -> Back-propagation
-Model sizes -> several ccombinations
+
+- Model Train -> greedy layer-wise manner
+- Top layer -> logistic regression
+- Fine-tuning connection weights -> Back-propagation
+- Model sizes -> several ccombinations
 
 
 **Conference**
+
 **2016**
+
 Emilcy Hernández, Victor Sanchez-Anguix, Vicente Julian, Javier Palanca, Néstor Duque (2016). Rainfall Prediction: A Deep Learning Approach. International Conference on Hybrid Artificial Intelligence Systems.
 
 Summary: The paper introduces an architecture based on Deep Learning for the prediction of the accumulated daily precipitation for the next day. More specifically, it includes an autoencoder for reducing and capturing non-linear relationships between attributes, and a multilayer perceptron for the prediction task.
 
 Notes:
 
-Top layer -> multilayer perceptron
-Model sizes and learning rates -> several combinations
+- Top layer -> multilayer perceptron
+- Model sizes and learning rates -> several combinations
 
 **2015**
+
 Moinul Hossain; Banafsheh Rekabdar; Sushil J. Louis; Sergiu Dascalu (2015). Forecasting the weather of Nevada: A deep learning approach. Neural Networks (IJCNN), 2015 International Joint Conference on.
 
 Summary: This paper compares a deep learning network (Stacked Denoising Auto-Encoders (SDAE)) against a standard neural network for predicting air temperature from historical pressure, humidity, and temperature data gathered from meteorological sensors in Northwestern Nevada. In addition, predicting air temperature from historical air temperature data alone can be improved by employing related weather variables like barometric pressure, humidity and wind speed data in the training process.
@@ -210,45 +223,54 @@ Notes:
 Top layer -> feed-forward neural network
 
 **2013**
+
 Pablo Romeu, Francisco Zamora-Martínez, Paloma Botella-Rocamora, Juan Pardo (2013). Time-Series Forecasting of Indoor Temperature Using Pre-trained Deep Neural Network. International Conference on Artificial Neural Networks.
 
 Summary: This paper presents a study of deep learning techniques (Stacked Denoising Auto-Encoders (SDAEs)) applied to time-series forecasting in a real indoor temperature forecasting task.
 
-Combination of the above
+**Combination of the above**
 
 **Journal**
+
 **2018**
+
 Lago; Jesus, De Ridder; Fjo, De Schutter; Bart (2018). Forecasting spot electricity prices: Deep learning approaches and empirical comparison of traditional algorithms. Applied Energy, Volume 221, 1 July 2018, Pages 386-405
 
 Summary: The paper proposes a framework for forecasting electricity prices. They use four different deep learning models for predicting electricity prices. In addition, they also consider that an extensive benchmark is still missing. To tackle that, they compare and analyze the accuracy of 27 common approaches for electricity price forecasting. Based on the benchmark results, they show how the proposed deep learning models outperform the state-of-the-art methods and obtain results that are statistically significant.
 
 **2017**
+
 Yuhan Jia; Jianping Wu; Moshe Ben-Akiva; Ravi Seshadri; Yiman Du (2017). Rainfall-integrated traffic speed prediction using deep learning method. IET Intelligent Transport Systems, Volume: 11, Issue: 9, 11
 
 Summary: The paper investigates the performance of deep belief network (DBN) and long short-term memory (LSTM) to conduct short-term traffic speed prediction with the consideration of rainfall impact as a non-traffic input. To validate the performance, the traffic detector data from an arterial in Beijing are utilised for model training and testing. The experiment results indicate that deep learning models have better prediction accuracy over other existing models. Furthermore, the LSTM can outperform the DBN to capture the time-series characteristics of traffic speed data.
 
 **Conference**
+
 **2017**
+
 Rodrigo F. Berriel; André Teixeira Lopes; Alexandre Rodrigues; Flávio Miguel Varejão; Thiago Oliveira-Santos (2017). Monthly energy consumption forecast: A deep learning approach. Neural Networks (IJCNN), 2017 International Joint Conference on
 
 Summary: The paper proposes a system to predict monthly energy consumption using deep learning techniques. Three deep learning models were studied: Deep Fully Connected, Convolutional and Long Short-Term Memory Neural Networks.
 
 **2016**
+
 Anderson Tenório Sergio; Teresa B. Ludermir (2016). Deep Learning for Wind Speed Forecasting in Northeastern Region of Brazil. Intelligent Systems (BRACIS), 2015 Brazilian Conference on.
 
 Summary: This work aims to investigate the use of some of deep learning architectures (deep belief networks and aunto-encoders) in predicting the hourly average speed of winds in the Northeastern region of Brazil.
 
 Notes:
 
-Model Train -> greedy layer-wise manner
-Fine-tuning connection weights -> Levenberg-Marquadt
-Model sizes -> several combinations
-André Gensler; Janosch Henze; Bernhard Sick; Nils Raabe (2016). Deep Learning for solar power forecasting — An approach using AutoEncoder and LSTM Neural Networks. Systems, Man, and Cybernetics (SMC), 2016 IEEE International Conference on.
+- Model Train -> greedy layer-wise manner
+- Fine-tuning connection weights -> Levenberg-Marquadt
+- Model sizes -> several combinations
+- André Gensler; Janosch Henze; Bernhard Sick; Nils Raabe (2016). Deep Learning for solar power forecasting — An approach using AutoEncoder and LSTM Neural Networks. Systems, Man, and Cybernetics (SMC), 2016 IEEE International Conference on.
 
 Summary: This paper introduces different Deep Learning and Artificial Neural Network algorithms, such as Deep Belief Networks, AutoEncoder, and LSTM in the field of renewable energy power forecasting of 21 solar power plants.
 
 **Others**
+
 **2018**
+
 Chien-Liang Liu; Wen-Hoar Hsaio; Yao-Chung Tu (2018). Time Series Classification with Multivariate Convolutional Neural Network. IEEE Transactions on Industrial Electronics (Early Access)
 
 Summary: This paper presents a novel deep learning architecture called multivariate convolutional neural network for time series classification, in which the proposed architecture considers multivariate and lag-features characteristics.
@@ -256,6 +278,7 @@ Summary: This paper presents a novel deep learning architecture called multivari
 Type: Convolutional neural network
 
 **2017**
+
 Bendong Zhao; Huanzhang Lu; Shangfeng Chen; Junliang Liu; Dongya Wu (2017). Convolutional neural networks for time series classification. Journal of Systems Engineering and Electronics. 28(1), pages 162.169)
 
 Summary: This paper proposes a convolutional neural network (CNN) framework for time series classification. Two groups of experiments are conducted on simulated data sets and eight groups of experiments are conducted on real-world data sets from different application domains.
@@ -274,11 +297,12 @@ Summary: The study proposes a deep denoising recurrent temporal restricted Boltz
 
 Notes:
 
-Model train -> layer by layer
-Model Fine-tuning connection weights -> Back-propagation
-Type: Recurrent restricted Boltzmann machine
+- Model train -> layer by layer
+- Model Fine-tuning connection weights -> Back-propagation
+- Type: Recurrent restricted Boltzmann machine
 
 **2016**
+
 Chao Yuan; Amit Chakraborty (2016). Deep Convolutional Factor Analyser for Multivariate Time Series Modeling. Data Mining (ICDM), 2016 IEEE 16th International Conference on.
 
 Summary: The paper presents a deep convolutional factor analyser (DCFA) for multivariate time series modeling. The network is constructed in a way that bottom layer nodes are independent. Through a process of up-sampling and convolution, higher layer nodes gain more temporal dependency.
@@ -298,6 +322,7 @@ Summary: This work reports on employing the deep learning artificial intelligenc
 Type: a novel optimization tool platform using Boltzmann machine algorithm for NMIP
 
 **2015**
+
 Afan Galih Salman; Bayu Kanigoro; Yaya Heryadi (2015). Weather forecasting using deep learning techniques. Advanced Computer Science and Information Systems (ICACSIS), 2015 International Conference on.
 
 Summary: This study investigates deep learning techniques for weather forecasting. In particular, this study will compare prediction performance of Recurrence Neural Network (RNN), Conditional Restricted Boltzmann Machine (CRBM), and Convolutional Network (CN) models. Those models are tested using weather dataset which are collected from a number of weather stations.
@@ -311,6 +336,7 @@ Summary: The aim of this paper is to present deep neural network architectures a
 Type: MultiLayer Perceptron.
 
 **2014**
+
 Yi ZhengQi LiuEnhong ChenYong GeJ. Leon Zhao. (2014). Time Series Classification Using Multi-Channels Deep Convolutional Neural Networks. International Conference on Web-Age Information Management.
 
 Summary: This paper explores the feature learning techniques to improve the performance of traditional feature-based approaches. Specifically, the paper proposes a deep learning framework for multivariate time series classification in two groups of experiments on real-world data sets from different application domains.
@@ -324,16 +350,20 @@ Summary: This paper overviews the particular challenges present in applying Cond
 Type: Conditional Restricted Boltzmann Machines (CRBM)
 
 **Reviews**
+
 **2017**
+
 John Cristian Borges Gamboa 2017. Deep Learning for Time-Series Analysis
 
 Summary: This paper presents review of the main Deep Learning techniques, and some applications on Time-Series analysis are summaried.
 
 **2014**
+
 Martin Längkvist, Lars Karlsson, Amy Loutfi (2014). A review of unsupervised feature learning and deep learning for time-series modeling. Pattern Recognition Letters. 42(1), pages 11–24.
 
 Summary: This paper gives a review of the recent developments in deep learning and unsupervised feature learning for time-series problems.
 
 **2012**
+
 Enzo Busseti, Ian Osband, Scott Wong (2012). Deep Learning for Time Series Modeling
   
