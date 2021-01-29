@@ -2,7 +2,7 @@
 This Repository will contain all the meanifull research done for time series forecasting using Aritifical Intelligence, Machine Learning, Deep Learning, etc. 
 ​
 ​
-Originally collected by Till 2017  https://github.com/FrancisArgnR
+Originally collected by Till 2017 [ Francis Argn ](https://github.com/FrancisArgnR)
 
 **2017**
 
