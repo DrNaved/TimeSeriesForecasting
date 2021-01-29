@@ -1,12 +1,11 @@
 
-Editor.md
-Open source online Markdown editor.
-
 This Repository will contain all the meanifull research done for time series forecasting using Aritifical Intelligence, Machine Learning, Deep Learning, etc. 
 ​
 ​
 Originally collected by Till 2017  https://github.com/FrancisArgnR
+
 **2017**
+
 Ryu, S., Noh, J., & Kim, H. (2017). Deep neural network based demand side short term load forecasting. Energies, 10(1), 3.
 ​
 Summary: The paper proposes deep neural network (DNN)-based load forecasting models and apply them to a demand side empirical load database. DNNs are trained in two different ways: a pre-training restricted Boltzmann machine and using ReLu without pre-training.
@@ -23,11 +22,13 @@ Qiu, X., Ren, Y., Suganthan, P. N., & Amaratunga, G. A. (2017). Empirical Mode D
 Summary: In this paper a Deep Belief Network (DBN) including two restricted Boltzmann machines (RBMs) was used to model load demand series.
 ​
 **2016**
+
 Hirata, T.a, Kuremoto, T.a, Obayashi, M.a, Mabu, S.a, Kobayashi, K.b (2016). A novel approach to time series forecasting using deep learning and linear model. IEEJ Transactions on Electronics, Information and Systems, 136(3), pages 348-356.
 ​
 Summary: This paper presents a hybrid prediction method using DBNs (deep Belief Network) and ARIMA.
 ​
 **2014**
+
 Takashi Kuremotoa, Shinsuke Kimuraa, Kunikazu Kobayashib, Masanao Obayashia (2014).Time series forecasting using a deep belief network with restricted Boltzmann machines. Neurocomputing, 137(5), pages 47–56
 ​
 Summary: This papers proposes a method for time series prediction using deep belief nets (DBN) (with 3-layer of RBMs to capture the feature of input space of time series data).
@@ -38,7 +39,9 @@ Mode Train -> greedy layer-wise manner
 Fine-tuning connection weights -> Back-propagation
 Mode sizes and learning rates -> PSO
 ​
+
 **Conference**
+
 **2017**
 This Repository will contain all the meanifull research done for time series forecasting using Aritifical Intelligence, Machine Learning, Deep Learning, etc.
 
@@ -357,103 +360,4 @@ Summary: This paper gives a review of the recent developments in deep learning a
 
 2012
 Enzo Busseti, Ian Osband, Scott Wong (2012). Deep Learning for Time Series Modeling
-
-Example
-<link rel="stylesheet" href="editormd/css/editormd.css" />
-<div id="test-editor">
-    <textarea style="display:none;">### Editor.md
-
-**Editor.md**: The open source embeddable online markdown editor, based on CodeMirror & jQuery & Marked.
-    </textarea>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="editormd/editormd.min.js"></script>
-<script type="text/javascript">
-    $(function() {
-        var editor = editormd("test-editor", {
-            // width  : "100%",
-            // height : "100%",
-            path   : "editormd/lib/"
-        });
-    });
-</script>Copy
-More Examples >>
-
-Features
-Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
-Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
-Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
-Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
-Support identification, interpretation, fliter of the HTML tags;
-Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
-Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
-Support Custom theme styles;
-Download & install
-Latest version: v1.5.0，Update: 2015-06-09
-
-
-
- 
-
-
-Or NPM install:
-
-npm install editor.md
-
-
-
-Or Bower install:
-
-bower install editor.md
-
-
-
-
-Change logs:
-
-CHANGES
-
-Dependents
-Projects :
-
-CodeMirror
-marked
-jQuery
-FontAwesome
-github-markdown.css
-KaTeX
-Rephael.js
-prettify.js
-flowchart.js
-sequence-diagram.js
-Prefixes.scss
-
-Development tools :
-
-Visual Studio Code
-Sass/Scss
-Gulp.js
-License
-Editor.md follows the MIT License, Anyone can freely use.
-
-
-
-
-
-Fork me on Github :
-
-
-
-
-
-
-
-Users
-
- Contact Us: editor.md@ipandao.com
-
-
-Editor.md
-Copyright © 2015-2019 Editor.md, MIT license.
-
-Design & Develop By: Pandao      
+  
